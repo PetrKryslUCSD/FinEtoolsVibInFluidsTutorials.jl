@@ -8,10 +8,7 @@ makedocs(
 	sitename = "FinEtoolsVibInFluidsTutorials.jl",
 	pages = Any[
 	"Home" => "index.md",
-	"Guide" => "guide/guide.md",
-	"Types and Functions" => Any[
-		"man/types.md",
-		"man/functions.md"]
+	"Tutorials" => "tutorials/tutorials.md",
 		]
 	)
 

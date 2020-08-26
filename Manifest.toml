@@ -124,7 +124,7 @@ uuid = "91bb5406-6c9a-523d-811d-0644c4229550"
 version = "4.6.1"
 
 [[FinEtoolsDeforLinear]]
-deps = ["Arpack", "FinEtools", "LinearAlgebra", "Literate", "PGFPlotsX", "PlotlyJS", "SparseArrays", "Statistics", "StatsBase", "SymRCM", "Test"]
+deps = ["Arpack", "FinEtools", "LinearAlgebra", "Literate", "SparseArrays", "Statistics", "StatsBase", "SymRCM", "Test"]
 git-tree-sha1 = "73e775da25150ed727ec18a75692b23ad783bb5e"
 repo-rev = "master"
 repo-url = "https://github.com/PetrKryslUCSD/FinEtoolsDeforLinear.jl.git"
@@ -316,12 +316,6 @@ git-tree-sha1 = "293b70ac1780f9584c89268a6e2a560d938a7065"
 uuid = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
 version = "1.3.0"
 
-[[PGFPlotsX]]
-deps = ["ArgCheck", "DataStructures", "Dates", "DefaultApplication", "DocStringExtensions", "MacroTools", "Parameters", "Requires"]
-git-tree-sha1 = "96fb16779688e4fd943e3625a6789e978186dfef"
-uuid = "8314cec4-20b6-5062-9cdb-752b83310925"
-version = "1.2.9"
-
 [[Parameters]]
 deps = ["OrderedCollections", "UnPack"]
 git-tree-sha1 = "38b2e970043613c187bd56a995fe2e551821eb4a"
@@ -343,18 +337,6 @@ version = "1.2.0"
 [[Pkg]]
 deps = ["Dates", "LibGit2", "Libdl", "Logging", "Markdown", "Printf", "REPL", "Random", "SHA", "UUIDs"]
 uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-
-[[PlotlyBase]]
-deps = ["Base64", "Dates", "DelimitedFiles", "DocStringExtensions", "JSON", "LaTeXStrings", "Logging", "Pkg", "Requires", "Statistics", "UUIDs"]
-git-tree-sha1 = "b33809ab5a35bf41d1fd7c851b52e32004392933"
-uuid = "a03496cd-edff-5a9b-9e67-9cda94a718b5"
-version = "0.4.1"
-
-[[PlotlyJS]]
-deps = ["Blink", "Compat", "DelimitedFiles", "JSExpr", "JSON", "Markdown", "Pkg", "PlotlyBase", "REPL", "Reexport", "Requires", "WebIO"]
-git-tree-sha1 = "086db02717bb2d65e5d8788b038919e9aec5a965"
-uuid = "f0f68f2c-4968-5e81-91da-67840de0976a"
-version = "0.13.1"
 
 [[Printf]]
 deps = ["Unicode"]

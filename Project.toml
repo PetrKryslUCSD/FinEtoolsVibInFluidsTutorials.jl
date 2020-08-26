@@ -1,11 +1,10 @@
 name = "FinEtoolsVibInFluidsTutorials"
 uuid = "a3d487ab-8ddb-4dbf-ac34-42e1ba7b13c1"
 authors = ["Petr Krysl <pkrysl@ucsd.edu>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 Arpack = "7d9fca2a-8960-54d3-9f78-7d1dccf2cb97"
-BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
 FinEtools = "91bb5406-6c9a-523d-811d-0644c4229550"
 FinEtoolsDeforLinear = "e9187c00-8bdd-11e9-1e70-7ba8303116a2"
 FinEtoolsVibInFluids = "bec31ec3-4858-4ad8-9f9e-aabdaa4a593b"
@@ -17,16 +16,13 @@ Profile = "9abbd945-dff8-562f-b5e8-e1ebf5ef1b79"
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-TimerOutputs = "a759f4b9-e2f1-59dc-863e-4aeb61b1ea8f"
 
 [compat]
 Arpack = "^0.4"
-BenchmarkTools = "0.5"
-FinEtools = "^4"
-FinEtoolsDeforLinear = "^0.2"
-FinEtoolsVibInFluids = "^0.2"
-FinEtoolsVoxelMesher = "^0.2"
+FinEtools = "^4.7"
+FinEtoolsDeforLinear = "^0.3"
+FinEtoolsVibInFluids = "^0.3"
+FinEtoolsVoxelMesher = "^0.3"
 JSON = "^0.21"
 Literate = "^2.6"
-TimerOutputs = "^0.5"
 julia = "^1.5"

@@ -1,5 +1,7 @@
 # # Free-vibration solution for a clamped plate in fluid
 
+# Source code: [`Fu_Price_plate_fully_immersed_algo_tut.jl`](Fu_Price_plate_fully_immersed_algo_tut.jl)
+
 # ## Description
 
 # Free-vibration solution for a clamped plate fully submerged in inviscid

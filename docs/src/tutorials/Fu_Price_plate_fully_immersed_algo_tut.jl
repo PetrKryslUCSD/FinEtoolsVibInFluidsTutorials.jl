@@ -39,6 +39,8 @@
 # ## Goals
 
 # - Define model data for an algorithm to solve the free vibration problem.
+# - Visualize pressure modes and vibration modes.
+# - Evaluate the accuracy of the approximate solution relative to the reference values.
 
 ##
 # ## Definitions
@@ -130,6 +132,15 @@ println("Reference wet ang. fre.: $(wreffs) [rad/s]")
 modeldata = AlgoVibInFluidsModule.exportfluidpressuremode(modeldata)
 modeldata["postprocessing"]["mode"] = 1:neigvs
 modeldata = AlgoVibInFluidsModule.exportmode(modeldata)
+
+##
+# ## Evaluation of the accuracy
+
+# The wet frequencies display a difference relative to the reference values. We get the errors as
+
+(modeldata["wet_omega"] .- wreffs) ./ wreffs
+
+# So the magnitude of error in the fundamental frequency is about 3.6%. The other frequencies are in error by less.
 
 true
 
